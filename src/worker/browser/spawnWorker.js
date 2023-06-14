@@ -6,7 +6,7 @@
  * @access public
  */
 module.exports = ({ workerPath, workerBlobURL }) => {
-  let worker;
+  /*let worker;
   if (Blob && URL && workerBlobURL) {
     const blob = new Blob([`importScripts("${workerPath}");`], {
       type: 'application/javascript',
@@ -14,7 +14,7 @@ module.exports = ({ workerPath, workerBlobURL }) => {
     worker = new Worker(URL.createObjectURL(blob));
   } else {
     worker = new Worker(workerPath);
-  }
-
+  }*/
+  let worker = new Worker(workerPath);
   return worker;
 };
