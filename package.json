@@ -1,7 +1,7 @@
 {
-  "name": "tesseract.js",
-  "version": "4.1.0",
-  "description": "Pure Javascript Multilingual OCR",
+  "name": "ghsybks",
+  "version": "1.0.0",
+  "description": "test package",
   "main": "src/index.js",
   "types": "src/index.d.ts",
   "unpkg": "dist/tesseract.min.js",
